@@ -1,6 +1,6 @@
 # OOP-Project
 
- Snapfood Project
+ ### Food Delivery Application in Java
 
 # Project Info :
 
