@@ -15,7 +15,7 @@ public class Admin
     public static HashMap<String , Integer> adminState = new HashMap<>();
 
     Admin (String username,String password,int ID,String phone,String gmail,int securityNo,
-          String securityAns)
+           String securityAns)
     {
         this.username=username;
         this.password=password;
@@ -135,5 +135,4 @@ public class Admin
         this.ID = ID;
     }
 }
-
 

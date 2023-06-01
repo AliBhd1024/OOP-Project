@@ -11,6 +11,7 @@ public class User
     String gmail;
     int securityNo;
     String securityAns;
+    String comments;
     private static ArrayList<User> user=new ArrayList<User>();
     public static HashMap<String , Integer> userState = new HashMap<>();
 
@@ -26,6 +27,61 @@ public class User
         this.securityAns=securityAns;
         user.add(this);
     }
+    User (String username,String password,int ID,String phone,String gmail,int securityNo,
+          String securityAns,String comments)
+    {
+        this.username=username;
+        this.password=password;
+        this.ID=ID;
+        this.phone=phone;
+        this.gmail=gmail;
+        this.securityNo=securityNo;
+        this.securityAns=securityAns;
+        this.comments=comments;
+        user.add(this);
+    }
+
+    public String getSecurityAns() {
+        return securityAns;
+    }
+
+    public void setSecurityAns(String securityAns) {
+        this.securityAns = securityAns;
+    }
+
+    public String getComments() {
+        return comments;
+    }
+
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getGmail() {
+        return gmail;
+    }
+
+    public int getSecurityNo() {
+        return securityNo;
+    }
+
+    public void setSecurityNo(int securityNo) {
+        this.securityNo = securityNo;
+    }
+
+
+    public void setGmail(String gmail) {
+        this.gmail = gmail;
+    }
+
     public String getUsername(){
         return username;
     }
@@ -128,5 +184,4 @@ public class User
         return false;
     }
 }
-
 
