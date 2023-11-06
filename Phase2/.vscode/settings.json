@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "DEACTIVE",
+        "Edgenew",
+        "FOODTYPE",
+        "myscanner"
+    ],
+
+    "java.project.referencedLibraries": [
+        "mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.debug.settings.onBuildFailureProceed": true
+}

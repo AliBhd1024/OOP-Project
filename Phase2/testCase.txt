@@ -1,0 +1,40 @@
+ADD ADMIN vali password123
+password123
+09918323469
+ali@gmail.com
+1
+peter
+LOGOUT ADMIN
+LOGIN ADMIN vali password123
+ADD RESTAURANT kebabi IranianFood
+10
+20
+4
+barbar
+2
+ADD FOOD kebabi barg
+20
+3
+25
+ADD COMMENT kebabi barg very good!
+ADD COMMENT kebabi barg fucked up!
+ADD COMMENT kebabi barg so so!
+ADD NEW RESPONSE kebabi barg 1 fUCK tOU!
+ADD FOOD kebabi jojeh
+60
+0
+30
+LOGOUT ADMIN
+ADD USER behrad password132
+password132
+09918323469
+ali@gmail.com
+1
+johni
+LOGIN USER behrad password132
+SELECT FOOD kebabi barg
+ADD THIS FOOD TO CART
+CHARGE ACCOUNT 100
+CONFIRM ORDER      
+LOGOUT USER
+LOGIN ADMIN ali password123
